@@ -1,0 +1,40 @@
+
+*                                             { margin: 0; padding: 0;  box-sizing: border-box; }
+.clear:after                                  { clear: both ;content: " "; display: block;font-size: 0; height: 0; visibility: hidden; }
+.wrapper                                      { min-width: 1000px; width: 70%; margin:0 auto;}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*.border       { border: solid 1px red; }
+*/.sideBar                                    { border-right: 3px solid black; min-width:300px; max-width: 350px; height: 100vh;  background: #0979B7; color: white; padding: 2% 2%;}
+.mainPage                                     { min-width: 950px; max-width: 100px; margin: 2% 2%; }
+.left                                         { float:left; }
+.right                                        { float:right; }
+.selectedPreviewLeft                          { display: inline-block; }
+.filters label                                { padding-right: 176px; }
+.filters .inputFilters                        { margin-right: 5px; margin-top: 20px; }
+.filters label:last-child                     { padding-right: 20px;}
+.h3filters                                    { margin-top: 50px; margin-bottom: 20px;}
+.totalSavedFooter h3                          { margin-top:20px; }
+.logo                                         { padding-bottom: 20px;}
+.serversOnOff                                 { display: inline-block; margin-left: 25px; margin-top: 20px; }
+.serversOnOff h3:last-Child                                 { margin-top: 20px; }
+.selectedPreviewData                          {    border-bottom: black solid 2px; border-left: black solid 2px; padding-left: 25px; padding-bottom: 20px;}
+.setDatesBlock.right > div:nth-child(2) { padding-bottom: 20px; }
+.setButton                                   { width: 82px; }
+.setDatesBlock select                         { margin-right: 10px; }
+.serversOnOff > h3:nth-child(2)               { margin-top:0px; }
+.serversOnOff h3                              { margin-top: 0px; }
+.mainPage h1                                  { text-align: center; margin-bottom: 28px; }
+.signOut                                      { margin-top: 20px; margin-right: 38px; font-size: 19px; text-decoration: underline;}
+.serversOnOff.clear > div:nth-child(1) > label { line-height: 26px; margin-left: 6px; margin-top: 2px; color: green; font-size: 19px; }
+.serversOnOff.clear > div:nth-child(2) > label { line-height: 26px; margin-left: 6px; margin-top: 2px;  color:red; font-size: 19px; }
+.selectedPreviewLeft label                     { margin-top:20px; line-height: 26px; font-size: 19px;}
+.selectedPreviewLeft h3                        {     margin-right: 7px; }
+.selectedPreviewLeft > div:nth-child(1) > label     { color:green; }
+.selectedPreviewLeft > div:nth-child(2) > label     { color:red; }
+.selectedPreviewLeft > div:nth-child(3) > label     { color:green;}
+.selectedPreviewLeft > div:nth-child(4) > label     { color:blue; }
+.chartsPreview img                              { display: block;margin: 0 auto;width: 54%; margin-top: 54px; }
+.chartsPreview                                  { margin-top: 50px; }
+.searchInput                                      { height: 350px; }
+.totalSavedFooter > div > h3                    { font-size: 20px; }
+.totalSavedFooter label {     text-align: center; display: block; margin-top: 26px; font-size: 20px; color: white; text-decoration: underline; }
